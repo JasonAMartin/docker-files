@@ -12,7 +12,7 @@ LABEL maintainer="jason.martin@jasonamartin.com"
 
 RUN npm install -g gulp-cli grunt gulp bower jest eslint webpack webpack-cli webpack-dev-server
 
-CMD ["bin/bash"]
+CMD ["/bin/bash"]
 
 EXPOSE 80 3000
 
